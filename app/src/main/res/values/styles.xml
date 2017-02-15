@@ -1,0 +1,60 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- U make my -->
+    <style name="element1" parent="AppTheme">
+        <item name="android:layout_height">@dimen/element1_height</item>
+        <item name="android:layout_width">@dimen/element1_width</item>
+        <item name="android:padding">@dimen/element1_padding</item>
+        <item name="android:layout_marginTop">@dimen/element1_marginTop</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <!-- PoP -->
+    <style name="element2" parent="AppTheme">
+        <item name="android:layout_height">@dimen/element2_height</item>
+        <item name="android:layout_width">@dimen/element2_width</item>
+        <item name="android:padding">@dimen/element1_padding</item>
+        <item name="android:layout_marginTop">@dimen/element2_marginTop</item>
+        <item name="android:layout_marginBottom">@dimen/element2_marginBottom</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+
+    </style>
+
+    <!-- Double tap -->
+    <style name="text" parent="AppTheme">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_margin">@dimen/text_margin</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">@dimen/font_size</item>
+    </style>
+
+    <!-- Circle -->
+    <style name="circleBg" parent="AppTheme">
+        <item name="android:layout_height">@dimen/view_height</item>
+        <item name="android:layout_width">@dimen/view_width</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <!-- Heart -->
+    <style name="heart" parent="AppTheme">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:scaleType">center</item>
+    </style>
+
+</resources>
