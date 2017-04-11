@@ -13,9 +13,15 @@
         <item name="android:layout_height">@dimen/element1_height</item>
         <item name="android:layout_width">@dimen/element1_width</item>
         <item name="android:padding">@dimen/element1_padding</item>
-        <item name="android:layout_marginTop">@dimen/element1_marginTop</item>
-        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_marginTop">@dimen/element1_marginTop</item>>
         <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="element1.horizontal">
+        <item name="android:layout_centerHorizontal">false</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
     </style>
 
     <!-- PoP -->
@@ -25,9 +31,15 @@
         <item name="android:padding">@dimen/element1_padding</item>
         <item name="android:layout_marginTop">@dimen/element2_marginTop</item>
         <item name="android:layout_marginBottom">@dimen/element2_marginBottom</item>
-        <item name="android:layout_centerHorizontal">true</item>
         <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
 
+    <style name="element2.horizontal">
+        <item name="android:layout_alignParentBottom">false</item>
+        <item name="android:layout_toRightOf">@id/guide</item>
+        <item name="android:layout_centerHorizontal">false</item>
+        <item name="android:layout_centerVertical">true</item>
     </style>
 
     <!-- Double tap -->
@@ -36,6 +48,7 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_margin">@dimen/text_margin</item>
         <item name="android:layout_gravity">center</item>
+        <item name="android:layout_centerHorizontal">true</item>
         <item name="android:textColor">@color/colorText</item>
         <item name="android:textSize">@dimen/font_size</item>
     </style>

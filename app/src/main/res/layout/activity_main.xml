@@ -4,7 +4,7 @@
     android:id="@+id/mainLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_2"
+    android:background="@drawable/background_2_bigger"
     tools:context="com.example.android.instagramheart.MainActivity">
 
 
@@ -12,7 +12,7 @@
     <ImageView
         android:id="@+id/element1"
         style="@style/element1"
-        android:src="@drawable/element_1" />
+        android:src="@drawable/element_1_big" />
 
 
     <LinearLayout
@@ -48,6 +48,6 @@
     <ImageView
         android:id="@+id/element2"
         style="@style/element2"
-        android:src="@drawable/element_2" />
+        android:src="@drawable/element_2_big" />
 
 </RelativeLayout>
